@@ -1,0 +1,180 @@
+[
+    [
+        {
+            "name": "Giải tích 1",
+            "icon": "",
+            "description": "là môn học về",
+            "ref": [
+                {
+                    "name": "",
+                    "link": "https://leetcode.com/problemset/all/",
+                    "info" : ""
+                }
+            ]
+        },
+        {
+            "name": "Vật lý 1",
+            "icon": "",
+            "description": "là môn học về các chuyển động với các vector định hướng, qua đó tính toán vận tốc, thời gian, quãng đường."
+        },
+        {
+            "name": "Nhập môn điện toán",
+            "icon": "",
+            "description": "có thể nói là môn học đầu tiên của các bạn về lập trình, và đối với Bách Khoa thì đó là ngôn ngữ C++. Các bạn sẽ được học những gì cơ bản nhất về C++ hay còn gọi là C++ fundamentals: biến, kiểu dữ liệu, mảng, câu điều kiện, vòng lặp,..."
+        },
+        {
+            "name": "Hệ thống số",
+            "icon": "",
+            "description": "tìm hiểu về bit - đơn vị cơ bản nhỏ nhất trong máy tính và các phép toán giữa chúng (bao gồm các toán tử and or not xor nor)."
+        }
+    ],
+    [
+        {
+            "name": "Giải tích 2",
+            "icon": "",
+            "description": "là môn học về"
+        },
+        {
+            "name": "Đại số tuyến tính",
+            "icon": "",
+            "description": "tìm hiểu về ma trận và các phép toán trên ma trận; đây có thể xem là mảng toán học mới lạ với nhiều bạn, tuy nhiên ứng dụng ma trận sau này trong lập trình là vô cùng phổ biến và hữu ích. Ứng dụng thực tiễn cơ bản của ma trận là phép xoay ma trận."
+        },
+        {
+            "name": "Cấu trúc rời rạc cho khoa học máy tính",
+            "icon": "",
+            "description": ""
+        },
+        {
+            "name": "Kỹ thuật lập trình",
+            "icon": "",
+            "description": "là bước tiến xa hơn trong việc học về lập trình, với ngôn ngữ C++, các bạn sẽ tìm hiểu về linked list, OOP - hướng đối tượng,..."
+        }
+    ],
+    [
+        {
+            "name": "Kiến trúc máy tính",
+            "icon": "",
+            "description": "mang đến cho các bạn sự hiểu biết về cách thức máy tính hoạt động (hay phần cứng hoạt động), tập trung vào thanh ghi, bộ nhớ, ổ đĩa,... Ngoài ra, các bạn sẽ có cơ hội tìm hiểu và code hợp ngữ <strong>MIPS</strong> trên nền tảng <strong>MARS</strong>."
+        },
+        {
+            "name": "Mô hình hóa toán học",
+            "icon": "",
+            "description": ""
+        },
+        {
+            "name": "Cấu trúc dữ liệu và giải thuật",
+            "icon": "",
+            "description": "gồm hai cụm từ là \"cấu trúc dữ liệu\" và \"giải thuật\", chủ yếu các bạn sẽ học về kỹ năng giải quyết vấn đề (solving problems) bằng giải thuật tin học (BFS, DFS,...) hoặc bằng cấu trúc dữ liệu (Binary Search Tree, Balance Tree,...)."
+        }
+    ],
+    [
+        {
+            "name": "Hệ điều hành",
+            "icon": "",
+            "description": "với mục tiêu cơ bản hiểu khái quát về hệ điều hành, cài đặt máy ảo trên <strong>Virtual Box</strong> với các hệ điều hành Linux, Ubuntu,... và code C nhằm mô phỏng việc quản lý các luồng tiến trình (process) bằng các cơ chế đồng bồ hay bất đồng bộ. Trong đó, việc quản lý sẽ gồm quản lý về thời gian (scheduling - sắp lịch) và về không gian (memorising - bộ nhớ).",
+            "ref": [
+                {
+                    "name": "Operating System Concepts - 10th",
+                    "link": "",
+                    "info" : "ABRAHAM SILBERSCHATZ, PETER BAER GALVIN, PETER BAER GALVIN"
+                }
+            ]
+        },
+        {
+            "name": "Lập trình nâng cao",
+            "icon": "",
+            "description": ""
+        },
+        {
+            "name": "Xác suất và thống kê",
+            "icon": "",
+            "description": ""
+        }
+    ],
+    [
+        {
+            "name": "Mạng máy tính",
+            "icon": "",
+            "description": ""
+        },
+        {
+            "name": "Hệ cơ sở dữ liệu",
+            "icon": "",
+            "description": ""
+        },
+        {
+            "name": "Công nghệ phần mềm",
+            "icon": "",
+            "description": ""
+        },
+        {
+            "name": "Hóa đại cương",
+            "icon": "",
+            "description": ""
+        }
+    ],
+    [
+        {
+            "name": "Kỹ năng chuyên nghiệp cho kỹ sư",
+            "icon": "",
+            "description": ""
+        },
+        {
+            "name": "Nhập môn trí tuệ nhân tạo",
+            "icon": "",
+            "description": ""
+        },
+        {
+            "name": "Lập trình web",
+            "icon": "",
+            "description": ""
+        }
+    ],
+    [
+        {
+            "name": "Tài liệu bách khoa",
+            "link" : "https://sites.google.com/site/thuvientailieubachkhoa/home",
+            "theme" : "Tài liệu"
+        },
+        {
+            "name": "Cửu dương thần công",
+            "link" : "https://cuuduongthancong.com/",
+            "theme" : "Tài liệu"
+        },
+        {
+            "name": "libgen",
+            "link" : "https://libgen.is/",
+            "theme" : "Nguồn sách"
+        },
+        {
+            "name": "draw.io",
+            "link" : "https://draw.io/",
+            "theme" : "Vẽ biểu đồ, mô hình, sơ đồ đơn giản."
+        },
+        {
+            "name": "overleaf",
+            "link" : "https://www.overleaf.com/",
+            "theme" : "Viết luận bằng Latex, teamwork"
+        },
+        {
+            "name": "leetcode",
+            "link": "https://leetcode.com/problemset/all/",
+            "theme": "Luyện tập kỹ năng solving problems trong phỏng vấn tìm việc"
+        },
+        {
+            "name": "codeforce",
+            "link": "https://codeforces.com/problemset",
+            "theme": "Luyện tập kỹ năng solving problems trong lập trình thi đấu"
+        },
+        {
+            "name": "codechef",
+            "link": "https://www.codechef.com/",
+            "theme": "Luyện tập kỹ năng solving problems trong lập trình thi đấu"
+        },
+        {
+            "name": "notion",
+            "link" : "https://www.notion.so/fr-fr",
+            "theme" : "Lập thời gian biểu"
+        }
+    ]
+]

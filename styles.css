@@ -1,0 +1,31 @@
+body{
+    background-color: cyan;
+}
+.container{
+    margin: 0 auto;
+    width: 50%;
+    background-color: white;
+    margin-top: 2em;
+}
+
+.row{
+    /* display: flex; */
+    padding: 2em;
+}
+
+.name{
+    font-weight:bold;
+    color: blue;
+    font-size: 20px;
+}
+
+.group{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.description{
+    background-color: aquamarine;
+    padding: 1em;
+}
