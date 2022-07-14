@@ -3,36 +3,41 @@
         {
             "name": "Giải tích 1",
             "icon": "",
-            "description": "là môn học về",
+            "description": "là môn học về đạo hàm, đạo hàm cấp cao, nguyên hàm, vi phân, phương trình vi phân, khai triển Taylor - Maclaurint <br> Học sử dụng <strong>Matlab</strong>",
             "ref": [
                 {
-                    "name": "",
-                    "link": "https://leetcode.com/problemset/all/",
-                    "info" : ""
+                    "name": "Calculus <br> A complete course",
+                    "link": "",
+                    "info" : "Robert A.Adams, Christopher Essex"
+                },
+                {
+                    "name": "CALCULUS, EARLY TRANSCENDENTALS",
+                    "link": "",
+                    "info" : "JAMES STEWART"
                 }
             ]
         },
         {
             "name": "Vật lý 1",
             "icon": "",
-            "description": "là môn học về các chuyển động với các vector định hướng, qua đó tính toán vận tốc, thời gian, quãng đường."
+            "description": "là môn học về các chuyển động với các vector định hướng, qua đó tính toán vận tốc, thời gian, quãng đường. <br> Học sử dụng Matlab"
         },
         {
             "name": "Nhập môn điện toán",
             "icon": "",
-            "description": "có thể nói là môn học đầu tiên của các bạn về lập trình, và đối với Bách Khoa thì đó là ngôn ngữ C++. Các bạn sẽ được học những gì cơ bản nhất về C++ hay còn gọi là C++ fundamentals: biến, kiểu dữ liệu, mảng, câu điều kiện, vòng lặp,..."
+            "description": "có thể nói là môn học đầu tiên của các bạn về lập trình, và đối với Bách Khoa thì đó là ngôn ngữ C++. Các bạn sẽ được học những gì cơ bản nhất về C++ hay còn gọi là C++ fundamentals: biến, kiểu dữ liệu, mảng, câu điều kiện, vòng lặp,... <br> Học làm quen với Arduino và thiết kế sản phẩm Arduino đơn giản."
         },
         {
             "name": "Hệ thống số",
             "icon": "",
-            "description": "tìm hiểu về bit - đơn vị cơ bản nhỏ nhất trong máy tính và các phép toán giữa chúng (bao gồm các toán tử and or not xor nor)."
+            "description": "tìm hiểu về bit - đơn vị cơ bản nhỏ nhất trong máy tính và các phép toán giữa chúng (bao gồm các toán tử and or not xor nor); các mạch tích hợp IC <br> Thực hành lắp mạch thực tế <br> Vẽ biểu đồ lắp mạch bằng công cụ <strong>Logisim</strong>"
         }
     ],
     [
         {
             "name": "Giải tích 2",
             "icon": "",
-            "description": "là môn học về"
+            "description": "là môn học nâng cao hơn tiếp theo của Giải tích 1, cụ thể các bạn sẽ học về đạo hàm riêng, tích phân bội 2 (tích phân kép), tích phân bội 3, tích phân đường, tích phân mặt và các tiêu chuẩn cũng như định lý để tính các loại tích phân đó; một số bài toán thực tế áp dụng. <br> Bài tập lớn sẽ có thời gian ngắn hạn, yêu cầu vẽ hình 3D bằng các phương trình trên Geogebra và tính một số yêu cầu."
         },
         {
             "name": "Đại số tuyến tính",
@@ -42,12 +47,19 @@
         {
             "name": "Cấu trúc rời rạc cho khoa học máy tính",
             "icon": "",
-            "description": ""
+            "description": "có thể nói, đây là môn học về Lý thuyết đồ thị trong giới Toán học, trọng tâm sẽ là các giải thuật duyệt đồ thị như Dijkstra, Bellman-Ford, A*, Floyd-Warshall,..."
         },
         {
             "name": "Kỹ thuật lập trình",
             "icon": "",
-            "description": "là bước tiến xa hơn trong việc học về lập trình, với ngôn ngữ C++, các bạn sẽ tìm hiểu về linked list, OOP - hướng đối tượng,..."
+            "description": "là bước tiến xa hơn trong việc học về lập trình, với ngôn ngữ C++, các bạn sẽ tìm hiểu về linked list, OOP - hướng đối tượng,...",
+            "ref":[
+                {
+                    "name": "leetcode",
+                    "link": "https://leetcode.com/problemset/all/",
+                    "info": "Luyện tập kỹ năng solving problems trong phỏng vấn tìm việc"
+                }
+            ]
         }
     ],
     [
@@ -59,7 +71,14 @@
         {
             "name": "Mô hình hóa toán học",
             "icon": "",
-            "description": ""
+            "description": "sẽ gồm 2 phần chính là logic và automata; đối với automata, nó sẽ có liên quan đến regular expression, mô hình các trạng thái",
+            "ref": [
+                {
+                    "name": "LOGIC IN COMPUTER SCIENCE - Modelling and Reasoning about Systems",
+                    "link": "",
+                    "info" : "MICHAEL HUTH, MARK RYAN"
+                }
+            ]
         },
         {
             "name": "Cấu trúc dữ liệu và giải thuật",
@@ -83,12 +102,24 @@
         {
             "name": "Lập trình nâng cao",
             "icon": "",
-            "description": ""
+            "description": "gồm 2 phần chính: <br> Phần 1: các bạn sẽ học sâu về Hướng đối tượng OOP <br> Phần 2: các bạn sẽ học về <strong>Ngôn ngữ lập trình hàm</strong> cụ thể là Haskell (ngoài ra các bạn có thể tìm hiểu thêm SML). <br> BTL có thể yêu cầu các bạn tìm hiểu ngôn ngữ Golang (free style)",
+            "ref": [
+                {
+                    "name": "Object-oriented programming in C++",
+                    "link": "",
+                    "info" : "Robert Lafore - Sams Publishing (2002)"
+                },
+                {
+                    "name": "Real World Haskell",
+                    "link": "",
+                    "info" : "Bryan O'Sullivan, John Goerzen, Don Stewart - O'Reilly Media (2008)"
+                }
+            ]
         },
         {
             "name": "Xác suất và thống kê",
             "icon": "",
-            "description": ""
+            "description": "gồm 2 phần chính: <br> <strong>Xác suất</strong>: Học về các khái niệm cơ bản trong xác suất: ,... và các dạng phân phối: phân phối chuẩn, phân phối đều, phân phối Poisson, phân phối Bernoulli, phân phối Student,... (mỗi phân phối đặc trưng cho 1 tình huống cụ thể trong thực tế) <br><strong>Thống kê</strong>: học về kỹ thuật lấy mẫu, các đặc trưng mẫu, tứ phân vị, phương sai, khoảng tin cậy, sử dụng các bảng giá trị Laplace, Fisher, Student và sử dụng phối hợp với máy tính cầm tay. Ngoài ra, còn có phân tích phương sai (<strong>ANOVA</strong>), hồi quy tuyến tính đơn,..."
         }
     ],
     [
@@ -117,17 +148,24 @@
         {
             "name": "Kỹ năng chuyên nghiệp cho kỹ sư",
             "icon": "",
-            "description": ""
+            "description": "là môn kỹ năng đặc trưng riêng của khoa máy tính, nhằm mục đích đào tạo các kỹ năng cơ bản cho kỹ sư như: quản lý thời gian, tìm hiểu nhu cầu cuối cùng của khách hàng, tư duy sáng tạo, kỹ năng làm việc nhóm hiệu quả."
         },
         {
             "name": "Nhập môn trí tuệ nhân tạo",
             "icon": "",
-            "description": ""
+            "description": "",
+            "ref": [
+                {
+                    "name": "Artificial Intelligence, A Modern Approach, Third Edition",
+                    "link": "",
+                    "info" : "Stuart J. Russell and Peter Norvig"
+                }
+            ]
         },
         {
             "name": "Lập trình web",
             "icon": "",
-            "description": ""
+            "description": "sẽ chỉ bạn xây dựng website cơ bản với cả front-end và back-end.<br> Một website đơn giản chỉ cần đến HTML, Javascript (DOM, Ajax) và CSS. <br> Sau đó sẽ kết hợp với cơ sở dữ liệu (database) bằng PHP với SQL, jQuery qua nền tảng xampp."
         }
     ],
     [
@@ -162,6 +200,11 @@
             "theme": "Luyện tập kỹ năng solving problems trong phỏng vấn tìm việc"
         },
         {
+            "name": "canva",
+            "link" : "https://www.canva.com/",
+            "theme" : "Làm slide thuyết trình chuyên nghiệp, đẹp mắt, full topping"
+        },
+        {
             "name": "codeforce",
             "link": "https://codeforces.com/problemset",
             "theme": "Luyện tập kỹ năng solving problems trong lập trình thi đấu"
@@ -175,6 +218,11 @@
             "name": "notion",
             "link" : "https://www.notion.so/fr-fr",
             "theme" : "Lập thời gian biểu"
+        },
+        {
+            "name": "HackerRank",
+            "link": "https://www.hackerrank.com/",
+            "theme": "Luyện tập kỹ năng solving problems và lấy chứng chỉ"
         }
     ]
 ]

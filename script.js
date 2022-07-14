@@ -25,7 +25,7 @@ readTextFile("db.json", function(text){
 
             let desc = document.createElement("p");
             desc.setAttribute("class", "description");
-            desc.innerHTML = "<strong>" + data[i][j].name + "</strong> " + data[i][j].description;
+            desc.innerHTML = "<strong>" + data[i][j].name + "</strong> " + (data[i][j].description == "" ? "updating..." : data[i][j].description);
             
             let ulist = document.createElement("ul");
             if ("ref" in data[i][j]){
