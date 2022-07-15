@@ -1,5 +1,6 @@
 body{
     background-color: cyan;
+    font-size: 17px;
 }
 .container{
     margin: 0 auto;
@@ -28,4 +29,19 @@ body{
 .description{
     background-color: aquamarine;
     padding: 1em;
+}
+
+.normal{
+    display: inline-block;
+    color: black;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h1{
+    color: whitesmoke; 
+    text-align: center; 
+    background-color: blueviolet; 
+    margin: 0px;
+    padding: 0.5em 0em;
 }

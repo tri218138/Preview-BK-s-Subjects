@@ -15,58 +15,93 @@
                     "link": "",
                     "info" : "JAMES STEWART"
                 }
-            ]
+            ],
+            "credits": "4"
         },
         {
             "name": "Vật lý 1",
             "icon": "",
-            "description": "là môn học về các chuyển động với các vector định hướng, qua đó tính toán vận tốc, thời gian, quãng đường. <br> Học sử dụng Matlab"
+            "description": "là môn học về các chuyển động với các vector định hướng, qua đó tính toán vận tốc, thời gian, quãng đường. <br> Học sử dụng Matlab",
+            "credits": "4"
         },
         {
             "name": "Nhập môn điện toán",
             "icon": "",
-            "description": "có thể nói là môn học đầu tiên của các bạn về lập trình, và đối với Bách Khoa thì đó là ngôn ngữ C++. Các bạn sẽ được học những gì cơ bản nhất về C++ hay còn gọi là C++ fundamentals: biến, kiểu dữ liệu, mảng, câu điều kiện, vòng lặp,... <br> Học làm quen với Arduino và thiết kế sản phẩm Arduino đơn giản."
+            "description": "có thể nói là môn học đầu tiên của các bạn về lập trình, và đối với Bách Khoa thì đó là ngôn ngữ C++. Các bạn sẽ được học những gì cơ bản nhất về C++ hay còn gọi là C++ fundamentals: biến, kiểu dữ liệu, mảng, câu điều kiện, vòng lặp,... <br> Học làm quen với Arduino và thiết kế sản phẩm Arduino đơn giản.",
+            "ref": [
+                {
+                    "name": "w3schools",
+                    "link": "w3schools.com",
+                    "info" : "lý thuyết cơ bản C++"
+                }
+            ],
+            "credits": "3"
         },
         {
             "name": "Hệ thống số",
             "icon": "",
-            "description": "tìm hiểu về bit - đơn vị cơ bản nhỏ nhất trong máy tính và các phép toán giữa chúng (bao gồm các toán tử and or not xor nor); các mạch tích hợp IC <br> Thực hành lắp mạch thực tế <br> Vẽ biểu đồ lắp mạch bằng công cụ <strong>Logisim</strong>"
+            "description": "tìm hiểu về bit - đơn vị cơ bản nhỏ nhất trong máy tính và các phép toán giữa chúng (bao gồm các toán tử and or not xor nor); các mạch tích hợp IC <br> Thực hành lắp mạch thực tế <br> Vẽ biểu đồ lắp mạch bằng công cụ <strong>Logisim</strong>",
+            "credits": "3"
+        },
+        {
+            "name": "Giáo dục quốc phòng",
+            "icon": "",
+            "description": "== kỳ nghỉ dưỡng 1 tháng duy nhất tại Bách Khoa :v",
+            "credits": "0"
         }
     ],
     [
         {
             "name": "Giải tích 2",
             "icon": "",
-            "description": "là môn học nâng cao hơn tiếp theo của Giải tích 1, cụ thể các bạn sẽ học về đạo hàm riêng, tích phân bội 2 (tích phân kép), tích phân bội 3, tích phân đường, tích phân mặt và các tiêu chuẩn cũng như định lý để tính các loại tích phân đó; một số bài toán thực tế áp dụng. <br> Bài tập lớn sẽ có thời gian ngắn hạn, yêu cầu vẽ hình 3D bằng các phương trình trên Geogebra và tính một số yêu cầu."
+            "description": "là môn học nâng cao hơn tiếp theo của Giải tích 1, cụ thể các bạn sẽ học về đạo hàm riêng, tích phân bội 2 (tích phân kép), tích phân bội 3, tích phân đường, tích phân mặt và các tiêu chuẩn cũng như định lý để tính các loại tích phân đó; một số bài toán thực tế áp dụng. <br> Bài tập lớn sẽ có thời gian ngắn hạn, yêu cầu vẽ hình 3D bằng các phương trình trên Geogebra và tính một số yêu cầu.",
+            "credits": "4"
         },
         {
             "name": "Đại số tuyến tính",
             "icon": "",
-            "description": "tìm hiểu về ma trận và các phép toán trên ma trận; đây có thể xem là mảng toán học mới lạ với nhiều bạn, tuy nhiên ứng dụng ma trận sau này trong lập trình là vô cùng phổ biến và hữu ích. Ứng dụng thực tiễn cơ bản của ma trận là phép xoay ma trận."
+            "description": "tìm hiểu về ma trận và các phép toán trên ma trận; đây có thể xem là mảng toán học mới lạ với nhiều bạn, tuy nhiên ứng dụng ma trận sau này trong lập trình là vô cùng phổ biến và hữu ích. Ứng dụng thực tiễn cơ bản của ma trận là phép xoay ma trận.",
+            "credits": "3"
         },
         {
             "name": "Cấu trúc rời rạc cho khoa học máy tính",
             "icon": "",
-            "description": "có thể nói, đây là môn học về Lý thuyết đồ thị trong giới Toán học, trọng tâm sẽ là các giải thuật duyệt đồ thị như Dijkstra, Bellman-Ford, A*, Floyd-Warshall,..."
+            "description": "có thể nói, đây là môn học về Lý thuyết đồ thị trong giới Toán học, trọng tâm sẽ là các giải thuật duyệt đồ thị như Dijkstra, Bellman-Ford, A*, Floyd-Warshall,...",
+            "credits": "4"
         },
         {
             "name": "Kỹ thuật lập trình",
             "icon": "",
-            "description": "là bước tiến xa hơn trong việc học về lập trình, với ngôn ngữ C++, các bạn sẽ tìm hiểu về linked list, OOP - hướng đối tượng,...",
+            "description": "là bước tiến xa hơn trong việc học về lập trình, với ngôn ngữ C++, các bạn sẽ tìm hiểu về linked list, OOP - hướng đối tượng,... <br> Thường gồm 3 BTL, BTL phía sau thường được phát triển từ BTL trước đó, xoay quanh việc hoàn thành chương trình với mục đích xử lý từng nhiệm vụ riêng tương ứng với câu lệnh đầu vào.",
             "ref":[
                 {
                     "name": "leetcode",
                     "link": "https://leetcode.com/problemset/all/",
                     "info": "Luyện tập kỹ năng solving problems trong phỏng vấn tìm việc"
                 }
-            ]
+            ],
+            "credits": "3"
+        },
+        {
+            "name": "Thí nghiệm vật lý",
+            "icon": "",
+            "description": "các bạn sẽ được lên phòng thí nghiệm mỗi tuần để thực hiện một chủ đề (lắp ráp, đo đạc) và viết báo cáo về lý thuyết, số liệu, tính toán và kết luận.",
+            "credits": "1"
         }
     ],
     [
         {
             "name": "Kiến trúc máy tính",
             "icon": "",
-            "description": "mang đến cho các bạn sự hiểu biết về cách thức máy tính hoạt động (hay phần cứng hoạt động), tập trung vào thanh ghi, bộ nhớ, ổ đĩa,... Ngoài ra, các bạn sẽ có cơ hội tìm hiểu và code hợp ngữ <strong>MIPS</strong> trên nền tảng <strong>MARS</strong>."
+            "description": "mang đến cho các bạn sự hiểu biết về cách thức máy tính hoạt động (hay phần cứng hoạt động), tập trung vào thanh ghi, bộ nhớ, ổ đĩa,... Ngoài ra, các bạn sẽ có cơ hội tìm hiểu và code hợp ngữ <strong>MIPS</strong> trên nền tảng <strong>MARS</strong>.",
+            "ref": [
+                {
+                    "name": "Computer Organization and Design",
+                    "link": "",
+                    "info" : "David A. Patterson, John L. Hennessy"
+                }
+            ],
+            "credits": "4"
         },
         {
             "name": "Mô hình hóa toán học",
@@ -78,12 +113,14 @@
                     "link": "",
                     "info" : "MICHAEL HUTH, MARK RYAN"
                 }
-            ]
+            ],
+            "credits": "3"
         },
         {
             "name": "Cấu trúc dữ liệu và giải thuật",
             "icon": "",
-            "description": "gồm hai cụm từ là \"cấu trúc dữ liệu\" và \"giải thuật\", chủ yếu các bạn sẽ học về kỹ năng giải quyết vấn đề (solving problems) bằng giải thuật tin học (BFS, DFS,...) hoặc bằng cấu trúc dữ liệu (Binary Search Tree, Balance Tree,...)."
+            "description": "gồm hai cụm từ là \"cấu trúc dữ liệu\" và \"giải thuật\", chủ yếu các bạn sẽ học về kỹ năng giải quyết vấn đề (solving problems) bằng giải thuật tin học (BFS, DFS,...) hoặc bằng cấu trúc dữ liệu (Binary Search Tree, Balance Tree,...). <br> Thường gồm 3 BTL, các BTL phía sau sẽ phát triển từ BTL trước đó: chủ yếu xoay quanh việc thực hiện sáng tạo Splay Tree, Balanced Tree, hash table,...",
+            "credits": "4"
         }
     ],
     [
@@ -96,8 +133,14 @@
                     "name": "Operating System Concepts - 10th",
                     "link": "",
                     "info" : "ABRAHAM SILBERSCHATZ, PETER BAER GALVIN, PETER BAER GALVIN"
+                },
+                {
+                    "name": "Oracle VM VirtualBox",
+                    "link": "https://www.virtualbox.org/",
+                    "info" : "download máy ảo"
                 }
-            ]
+            ],
+            "credits": "3"
         },
         {
             "name": "Lập trình nâng cao",
@@ -114,41 +157,69 @@
                     "link": "",
                     "info" : "Bryan O'Sullivan, John Goerzen, Don Stewart - O'Reilly Media (2008)"
                 }
-            ]
+            ],
+            "credits": "3"
         },
         {
             "name": "Xác suất và thống kê",
             "icon": "",
-            "description": "gồm 2 phần chính: <br> <strong>Xác suất</strong>: Học về các khái niệm cơ bản trong xác suất: ,... và các dạng phân phối: phân phối chuẩn, phân phối đều, phân phối Poisson, phân phối Bernoulli, phân phối Student,... (mỗi phân phối đặc trưng cho 1 tình huống cụ thể trong thực tế) <br><strong>Thống kê</strong>: học về kỹ thuật lấy mẫu, các đặc trưng mẫu, tứ phân vị, phương sai, khoảng tin cậy, sử dụng các bảng giá trị Laplace, Fisher, Student và sử dụng phối hợp với máy tính cầm tay. Ngoài ra, còn có phân tích phương sai (<strong>ANOVA</strong>), hồi quy tuyến tính đơn,..."
+            "description": "gồm 2 phần chính: <br> <strong>Xác suất</strong>: Học về các khái niệm cơ bản trong xác suất: quy tắc cộng, nhân, chỉnh hợp, tổ hợp, hoán vị, công thức Bernoulli, công thức Bayes, hàm phân phối xác suất, hàm mật độ, kỳ vọng, phương sai, độ lệch chuẩn, trung vị, mod, ... và các dạng phân phối: phân phối chuẩn, phân phối đều, phân phối Poisson, phân phối Bernoulli, phân phối Student,... (mỗi phân phối đặc trưng cho 1 tình huống cụ thể trong thực tế) <br><strong>Thống kê</strong>: học về kỹ thuật lấy mẫu, các đặc trưng mẫu, tứ phân vị, phương sai, khoảng tin cậy, sử dụng các bảng giá trị Laplace, Fisher, Student và sử dụng phối hợp với máy tính cầm tay. Ngoài ra, còn có phân tích phương sai (<strong>ANOVA</strong>), hồi quy tuyến tính đơn,...",
+            "ref": [
+                {
+                    "name": "Kênh Youtube Nguyễn Văn Tuấn",
+                    "link": "https://www.youtube.com/user/drnguyenvtuan",
+                    "info" : "học về ANOVA"
+                }
+            ],
+            "credits": "4"
         }
     ],
     [
         {
             "name": "Mạng máy tính",
             "icon": "",
-            "description": ""
+            "description": "BTL thực hiện video streaming và BTL thiết kế mạng.",
+            "credits": "3"
         },
         {
             "name": "Hệ cơ sở dữ liệu",
             "icon": "",
-            "description": ""
+            "description": "là môn học thiết kế cơ sở dữ liệu (thiết kế ý niệm và thiết kế luận lý), kết nối app với cơ sở dữ liệu thông qua hệ cơ sở dữ liệu.",
+            "credits": "4"
         },
         {
             "name": "Công nghệ phần mềm",
             "icon": "",
-            "description": ""
+            "description": "tập trung vào lý thuyết công nghệ phần mềm.",
+            "credits": "3"
         },
         {
             "name": "Hóa đại cương",
             "icon": "",
-            "description": ""
+            "description": "",
+            "credits": "3"
+        }
+    ],
+    [
+        {
+            "name": "Nguyên lý ngôn ngữ lập trình",
+            "icon": "",
+            "description": "",
+            "credits": "4"
+        },
+        {
+            "name": "Thực tập ngoài nhà trường",
+            "icon": "",
+            "description": "",
+            "credits": "2"
         }
     ],
     [
         {
             "name": "Kỹ năng chuyên nghiệp cho kỹ sư",
             "icon": "",
-            "description": "là môn kỹ năng đặc trưng riêng của khoa máy tính, nhằm mục đích đào tạo các kỹ năng cơ bản cho kỹ sư như: quản lý thời gian, tìm hiểu nhu cầu cuối cùng của khách hàng, tư duy sáng tạo, kỹ năng làm việc nhóm hiệu quả."
+            "description": "là môn kỹ năng đặc trưng riêng của khoa máy tính, nhằm mục đích đào tạo các kỹ năng cơ bản cho kỹ sư như: quản lý thời gian, tìm hiểu nhu cầu cuối cùng của khách hàng, tư duy sáng tạo, kỹ năng làm việc nhóm hiệu quả.",
+            "credits": "3"
         },
         {
             "name": "Nhập môn trí tuệ nhân tạo",
@@ -160,12 +231,44 @@
                     "link": "",
                     "info" : "Stuart J. Russell and Peter Norvig"
                 }
-            ]
+            ],
+            "credits": "3"
         },
         {
             "name": "Lập trình web",
             "icon": "",
-            "description": "sẽ chỉ bạn xây dựng website cơ bản với cả front-end và back-end.<br> Một website đơn giản chỉ cần đến HTML, Javascript (DOM, Ajax) và CSS. <br> Sau đó sẽ kết hợp với cơ sở dữ liệu (database) bằng PHP với SQL, jQuery qua nền tảng xampp."
+            "description": "sẽ chỉ bạn xây dựng website cơ bản với cả front-end và back-end.<br> Một website đơn giản chỉ cần đến HTML, Javascript (DOM, Ajax) và CSS. <br> Sau đó sẽ kết hợp với cơ sở dữ liệu (database) bằng PHP với SQL, jQuery qua nền tảng xampp.",
+            "credits": "3"
+        },
+        {
+            "name": "Lập trình game",
+            "icon": "",
+            "description": "",
+            "credits": "3"
+        },
+        {
+            "name": "Học máy",
+            "icon": "",
+            "description": "",
+            "credits": "3"
+        },
+        {
+            "name": "Đồ án Trí tuệ nhân tạo",
+            "icon": "",
+            "description": "Thực hành 1 sản phẩm có áp dụng AI + viết báo cáo trong thời gian 1 học kỳ, cuối kỳ nộp báo cáo và thuyết trình sản phẩm.",
+            "credits": "1"
+        },
+        {
+            "name": "Đồ án Công nghệ phần mềm",
+            "icon": "",
+            "description": "",
+            "credits": "1"
+        },
+        {
+            "name": "Đồ án Hệ thống thông tin",
+            "icon": "",
+            "description": "",
+            "credits": "1"
         }
     ],
     [
@@ -223,6 +326,21 @@
             "name": "HackerRank",
             "link": "https://www.hackerrank.com/",
             "theme": "Luyện tập kỹ năng solving problems và lấy chứng chỉ"
+        },
+        {
+            "name": "w3schools",
+            "link": "https://www.w3schools.com/",
+            "theme" : "Lý thuyết cơ bản nhiều ngôn ngữ lập trình"
+        },
+        {
+            "name": "github",
+            "link": "https://github.com/",
+            "theme" : "nơi chia sẻ code teamwork giữa các thành viên và là nơi bạn muốn chia sẻ code với cộng đồng."
+        },
+        {
+            "name": "quora",
+            "link": "https://www.quora.com/",
+            "theme" : "đặt câu hỏi và theo dõi các sự kiện trong lĩnh vực IT,..."
         }
     ]
 ]

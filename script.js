@@ -21,7 +21,7 @@ readTextFile("db.json", function(text){
 
             let name = document.createElement("p");
             name.setAttribute("class", "name");
-            name.innerHTML = data[i][j].name;
+            name.innerHTML = data[i][j].name + ("credits" in data[i][j] ? "<p class=\"normal\"> - Số tín chỉ: " + data[i][j].credits +"</p>" : "");
 
             let desc = document.createElement("p");
             desc.setAttribute("class", "description");
@@ -29,7 +29,7 @@ readTextFile("db.json", function(text){
             
             let ulist = document.createElement("ul");
             if ("ref" in data[i][j]){
-                console.log(data[i][j].ref.length);                
+                // console.log(data[i][j].ref.length);                
                 for (let t = 0; t < data[i][j].ref.length; t++) {
                     let item = document.createElement("li");
                     item.innerHTML = "<a href='"+ data[i][j].ref[t].link + "'>" + data[i][j].ref[t].name + "</a> - " + data[i][j].ref[t].info;
