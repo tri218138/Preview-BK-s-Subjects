@@ -179,19 +179,40 @@
             "name": "Mạng máy tính",
             "icon": "",
             "description": "BTL thực hiện video streaming và BTL thiết kế mạng.",
-            "credits": "3"
+            "credits": "3",
+            "ref":[
+                {
+                    "name": "Computer Network: A Top-down Approach - 8th edition",
+                    "link": "",
+                    "info" : "JAMES F. KUROSE, KEITH W. ROSS"
+                }
+            ]
         },
         {
             "name": "Hệ cơ sở dữ liệu",
             "icon": "",
             "description": "là môn học thiết kế cơ sở dữ liệu (thiết kế ý niệm và thiết kế luận lý), kết nối app với cơ sở dữ liệu thông qua hệ cơ sở dữ liệu.",
-            "credits": "4"
+            "credits": "4",
+            "ref":[
+                {
+                    "name": "Fundamentals of Database Systems - 7th edition",
+                    "link": "",
+                    "info" : "ELMASRI, NAVATHE"
+                }
+            ]
         },
         {
             "name": "Công nghệ phần mềm",
             "icon": "",
             "description": "tập trung vào lý thuyết công nghệ phần mềm.",
-            "credits": "3"
+            "credits": "3",
+            "ref":[
+                {
+                    "name": "Software Engineering - 10th global edition",
+                    "link": "",
+                    "info" : "IAN SOMMERVILLE"
+                }
+            ]
         },
         {
             "name": "Hóa đại cương",
