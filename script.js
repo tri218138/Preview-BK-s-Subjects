@@ -27,6 +27,18 @@ readTextFile("db.json", function(text){
             desc.setAttribute("class", "description");
             desc.innerHTML = "<strong>" + data[i][j].name + "</strong> " + (data[i][j].description == "" ? "updating..." : data[i][j].description);
             
+            let ulist0 = document.createElement("ul");
+            if ("note" in data[i][j]){
+                // console.log(data[i][j].note.length);  
+                ulist0.innerHTML = "<em>Ghi chú:</em><br>";              
+                for (let t = 0; t < data[i][j].note.length; t++) {
+                    let item = document.createElement("li");
+                    item.innerHTML = data[i][j].note[t].content;
+                    ulist0.appendChild(item);
+                }
+            }  
+            desc.appendChild(ulist0);
+
             let ulist = document.createElement("ul");
             if ("ref" in data[i][j]){
                 // console.log(data[i][j].ref.length);                

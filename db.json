@@ -178,14 +178,24 @@
         {
             "name": "Mạng máy tính",
             "icon": "",
-            "description": "BTL thực hiện video streaming và BTL thiết kế mạng.",
+            "description": "Môn học này nhằm cung cấp cho sinh viên một cái nhìn tổng quát về mạng máy tính, nguyên lý truyền dữ liệu trong mạng có dây và không dây. Môn học tập trung vào chức năng và nhiệm vụ của các tầng trong mô hình OSI, tập trung chính yếu vào tầng Ứng dụng (Application), tầng Vận chuyển (Transport), tầng Mạng (Network), và tầng Liên kết (Data link). Môn học cũng có giới thiệu qua mạng peer-to-peer và mạng không dây, cùng các dịch vụ khác như DNS, DHCP,NAT... <br>BTL thực hiện video streaming và BTL thiết kế mạng.",
             "credits": "3",
+            "note":[
+                { "content": "Giao thức (Protocol): hình thức giao tiếp chung."},
+                { "content": ""}
+            ],
             "ref":[
                 {
                     "name": "Computer Network: A Top-down Approach - 8th edition",
                     "link": "",
                     "info" : "JAMES F. KUROSE, KEITH W. ROSS"
+                },
+                {
+                    "name": "Các khái niệm cơ bản về mạng",
+                    "link": "https://www.youtube.com/c/TING3S2",
+                    "info" : "TING 3S"
                 }
+                
             ]
         },
         {
